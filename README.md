@@ -2,6 +2,7 @@
 
 ```sh
 brew tap deep-on/tap
+brew trust deep-on/tap          # Homebrew asks this of every tap it did not write
 brew install --cask small-commander
 ```
 

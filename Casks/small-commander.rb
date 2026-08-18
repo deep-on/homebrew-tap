@@ -7,7 +7,9 @@ cask "small-commander" do
   desc "Dual-pane file manager whose remote panes feel like local ones"
   homepage "https://deepon.kr/small-commander"
 
-  depends_on macos: ">= :sonoma"
+  # A bare symbol means "this version or newer"; the string form Homebrew
+  # used to take is deprecated and warns on every tap.
+  depends_on macos: :sonoma
 
   app "SmallCommander.app"
 
