@@ -1,6 +1,6 @@
 cask "small-commander" do
-  version "1.0.1"
-  sha256 "5cda04f3ecd285be3a1b64ce97ce474c6aca7ae7e77a2d59e2a1421a52444cf1"
+  version "1.0.2"
+  sha256 "e7f5f93c4295e20a9694fc945bfbcca6e48ca8600ddbfd28d23fe3d418741bb6"
 
   url "https://deepon.kr/downloads/SmallCommander-#{version}.dmg"
   name "Small Commander"
